@@ -1,11 +1,11 @@
 import React from 'react';
-import './style.css';
+import './bulma.css';
 
 export default function App() {
   return (
-    <div>
-      <h1>Respira</h1>
-      <p>some components will go here</p>
+    <div class="container">
+      <h1 class="title">Respira</h1>
+      <p class="subtitle">some components will go under here.</p>
     </div>
   );
 }
